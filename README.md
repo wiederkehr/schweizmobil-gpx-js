@@ -15,7 +15,7 @@ chmod +x schweizmobil-gpx.js
 ## Usage
 
 ```bash
-./schweizmobil-gpx.js <route_type> <route_number> [file_name]
+./schweizmobil-gpx.js <route_type> <route_number>
 ```
 
 ### Parameters
@@ -26,17 +26,12 @@ chmod +x schweizmobil-gpx.js
   - `local` - Local hiking routes
   - `snowshoe-local` - Local snowshoe routes
 - `route_number`: The numeric ID of the route
-- `file_name` (optional): The output filename (defaults to `<route_type>-<route_number>.gpx`)
 
 ### Examples
 
 ```bash
 # Download national route 1 (Via Alpina) to default filename (national-1.gpx)
 ./schweizmobil-gpx.js national 1
-
-# Download regional route 27 (Swiss Tour Monte Rosa) to custom filename
-./schweizmobil-gpx.js regional 27 swiss-tour-monte-rosa.gpx
-
 ```
 
 ## How it works
