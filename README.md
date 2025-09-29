@@ -30,7 +30,7 @@ chmod +x schweizmobil-gpx.js
 ### Examples
 
 ```bash
-# Download national route 1 (Via Alpina) to default filename (national-1.gpx)
+# Download national route 1 (Via Alpina)
 ./schweizmobil-gpx.js national 1
 ```
 
